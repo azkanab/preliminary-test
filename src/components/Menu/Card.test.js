@@ -1,5 +1,6 @@
 import { render, screen } from '@testing-library/react';
 import Card from './Card';
+import { RecoilRoot } from 'recoil'
 
 test('renders food data on card', () => {
 
@@ -24,7 +25,11 @@ test('renders food data on card', () => {
     const setTotal = () => {
     }
 
-    render(<Card food={food} order={order} setOrder={setOrder} date={date} total={total} setTotal={setTotal} />);
+    render(
+    <RecoilRoot>
+        <Card food={food} order={order} setOrder={setOrder} date={date} total={total} setTotal={setTotal} />
+    </RecoilRoot>
+    );
     
     const linkElement = screen.getByText(/Uptown/i);
     

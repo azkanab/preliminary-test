@@ -1,5 +1,6 @@
 import { render, screen } from '@testing-library/react';
 import PickDate from './PickDate';
+import { RecoilRoot } from 'recoil'
 
 test('renders a date on date picker', () => {
 
@@ -8,7 +9,11 @@ test('renders a date on date picker', () => {
     tomorrow.setDate(tomorrow.getDate() + 1)
     const tomorrowDate = tomorrow.getDate()
 
-    render(<PickDate />);
+    render(
+    <RecoilRoot>
+        <PickDate />
+    </RecoilRoot>
+    );
     
     const linkElement = screen.getByText(tomorrowDate);
     

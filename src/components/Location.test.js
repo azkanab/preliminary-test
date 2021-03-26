@@ -1,5 +1,6 @@
 import { render, screen } from '@testing-library/react';
 import Location from './Location';
+import { RecoilRoot } from 'recoil'
 
 test('renders location data on location modal', () => {
     const data = {
@@ -11,7 +12,11 @@ test('renders location data on location modal', () => {
         console.log('Kulina, Jl. Tulodong Atas No. 28')
     }
     
-    render(<Location data={data} onHandleClick={handleClick} />);
+    render(
+    <RecoilRoot>
+        <Location data={data} onHandleClick={handleClick} />
+    </RecoilRoot>
+    );
     
     const linkElement = screen.getByText(/Tulodong/i);
     

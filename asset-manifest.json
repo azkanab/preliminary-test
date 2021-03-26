@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/ef0bd2fb3f916d617fcadeae6610a142d12bf13c/static/css/main.723c2344.chunk.css",
+    "main.js": "/ef0bd2fb3f916d617fcadeae6610a142d12bf13c/static/js/main.be833499.chunk.js",
+    "main.js.map": "/ef0bd2fb3f916d617fcadeae6610a142d12bf13c/static/js/main.be833499.chunk.js.map",
+    "runtime-main.js": "/ef0bd2fb3f916d617fcadeae6610a142d12bf13c/static/js/runtime-main.3c526912.js",
+    "runtime-main.js.map": "/ef0bd2fb3f916d617fcadeae6610a142d12bf13c/static/js/runtime-main.3c526912.js.map",
+    "static/js/2.36402c63.chunk.js": "/ef0bd2fb3f916d617fcadeae6610a142d12bf13c/static/js/2.36402c63.chunk.js",
+    "static/js/2.36402c63.chunk.js.map": "/ef0bd2fb3f916d617fcadeae6610a142d12bf13c/static/js/2.36402c63.chunk.js.map",
+    "static/js/3.dd4d47e9.chunk.js": "/ef0bd2fb3f916d617fcadeae6610a142d12bf13c/static/js/3.dd4d47e9.chunk.js",
+    "static/js/3.dd4d47e9.chunk.js.map": "/ef0bd2fb3f916d617fcadeae6610a142d12bf13c/static/js/3.dd4d47e9.chunk.js.map",
+    "index.html": "/ef0bd2fb3f916d617fcadeae6610a142d12bf13c/index.html",
+    "static/css/main.723c2344.chunk.css.map": "/ef0bd2fb3f916d617fcadeae6610a142d12bf13c/static/css/main.723c2344.chunk.css.map",
+    "static/js/2.36402c63.chunk.js.LICENSE.txt": "/ef0bd2fb3f916d617fcadeae6610a142d12bf13c/static/js/2.36402c63.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/ef0bd2fb3f916d617fcadeae6610a142d12bf13c/static/media/ProximaNova-Semibold.22781785.otf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3c526912.js",
+    "static/js/2.36402c63.chunk.js",
+    "static/css/main.723c2344.chunk.css",
+    "static/js/main.be833499.chunk.js"
+  ]
+}

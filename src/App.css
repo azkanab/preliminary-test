@@ -1,0 +1,23 @@
+@font-face {
+  font-family: 'ProximaNova-Regular';
+  src: url('./fonts/ProximaNova-Regular.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'ProximaNova-Bold';
+  src: url('./fonts/ProximaNova-Bold.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'ProximaNova-Semibold';
+  src: url('./fonts/ProximaNova-Semibold.otf') format('opentype');
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+}
+
+.screen {
+  width: 375px;
+}

@@ -1,0 +1,54 @@
+.container {
+    padding-top: 8px;
+    padding-bottom: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+    display: flex;
+    justify-content: center;
+    text-align:center;
+    position: relative;
+    top: 0px;
+    transition: top 0.3s;
+    z-index: 1;
+}
+
+.containerScroll {
+    top: -56px;
+    z-index: -1;
+}
+
+.lunchBox {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    width: 50%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border: 0.5px solid #424749;
+    cursor: pointer;
+}
+
+.dinnerBox {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    width: 50%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border: 0.5px solid #424749;
+    cursor: pointer;
+}
+
+.active {
+    background-color: #424749;
+    color: #f1f1f2;
+}
+
+.notActive {
+    background-color: #f1f1f2;
+    color: #424749;
+    opacity: 0.3;
+}
+
+.notActive:hover {
+    background-color: #424749;
+    color: #f1f1f2;
+}

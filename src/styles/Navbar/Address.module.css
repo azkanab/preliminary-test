@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.backContainer {
+    text-align: center;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.addressContainer {
+    flex: 6;
+    padding-left: 8px;
+    cursor: pointer
+}
+
+.location {
+    display: flex;
+    align-items: center;
+    margin-top: 4px;
+    margin-bottom: 8px;
+}
+
+.arrowDown {
+    font-size: 14px;
+    color: #f9423a;
+    margin-left: 8px;
+}

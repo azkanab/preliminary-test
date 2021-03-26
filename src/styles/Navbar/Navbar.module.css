@@ -1,0 +1,19 @@
+.container {
+    background-color: #ffffff;
+    position: fixed;
+    top: 0;
+    width: 375px;
+    z-index: 5;
+    transition: top 0.3s;
+    height: 112.5px;
+}
+
+.containerScroll {
+    height: 165.5px;
+}
+
+@media only screen and (max-width: 375px) {
+    .container {
+        width: 100%;
+    }
+}

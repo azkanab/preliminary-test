@@ -1,0 +1,13 @@
+.container {
+    padding-top: 165.5px;
+    padding-bottom: 16px;
+    background-color: #f1f1f2;
+    padding-left: 16px;
+    padding-right: 16px;
+    position: relative;
+    top: 0px;
+}
+
+.addedHeight {
+    padding-bottom: 64px;
+}
